@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="btn_operator_bg">#FF9500</color>
+    <color name="btn_top_func_bg">#A5A5A5</color>
+    <color name="btn_operator_text">#FFFFFF</color>
+    <color name="btn_gt_bg">#363868</color>
+    <color name="calc_body_bg">#D6D6D8</color>
+
+    <!-- SHARP EL-1801V Palette -->
+    <color name="btn_num_bg">#EFEFEA</color>
+    <color name="btn_gray_bg">#808A96</color>
+    <color name="btn_light_gray_bg">#B8BFC6</color>
+    <color name="btn_red_bg">#CE3A37</color>
+    <color name="btn_orange_bg">#EE9428</color>
+    <color name="btn_teal_bg">#3897A8</color>
+    <color name="btn_memory_bg">#656BA2</color>
+    <color name="text_navy_blue">#2B3B6B</color>
+</resources>

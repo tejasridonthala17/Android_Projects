@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/calc_body_bg">
+
+    <!-- Top Display Screen -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.18"
+        android:background="#222222"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/display_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:text="0"
+            android:textColor="#A5E9B1"
+            android:textSize="56sp"
+            android:fontFamily="sans-serif-light" />
+    </RelativeLayout>
+
+    <!-- Detailed Labels and Sliders Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:gravity="bottom">
+
+        <!-- Left Brand & Change Button -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SHARP EL-1801V"
+                android:textColor="#000000"
+                android:textSize="9sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/btn_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/btn_teal"
+                android:text="CHANGE"
+                android:textColor="#FFFFFF"
+                android:textSize="9sp"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Dynamic Sliders Area -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="end|bottom"
+            android:paddingBottom="4dp">
+
+            <!-- F 6 3 2 1 0 A -->
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center_horizontal" android:layout_marginLeft="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="F 6 3 2 1 0 A" android:textColor="#000000" android:textSize="6sp" android:textStyle="bold" />
+                <RelativeLayout android:layout_width="50dp" android:layout_height="10dp">
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#000000" android:layout_centerInParent="true" />
+                    <View android:layout_width="8dp" android:layout_height="8dp" android:background="@drawable/slider_thumb" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- GT - SET -->
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center_horizontal" android:layout_marginLeft="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GT - SET" android:textColor="#000000" android:textSize="6sp" android:textStyle="bold" />
+                <RelativeLayout android:layout_width="30dp" android:layout_height="10dp">
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#000000" android:layout_centerInParent="true" />
+                    <View android:layout_width="10dp" android:layout_height="10dp" android:background="@drawable/slider_thumb" android:layout_centerVertical="true" android:layout_alignParentLeft="true" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- - 5/4 + -->
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center_horizontal" android:layout_marginLeft="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="- 5/4 +" android:textColor="#000000" android:textSize="6sp" android:textStyle="bold" />
+                <RelativeLayout android:layout_width="30dp" android:layout_height="10dp">
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#000000" android:layout_centerInParent="true" />
+                    <View android:layout_width="8dp" android:layout_height="8dp" android:background="@drawable/slider_thumb" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- OFF P P+IC ON -->
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center_horizontal" android:layout_marginLeft="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="OFF P P+IC ON" android:textColor="#000000" android:textSize="6sp" android:textStyle="bold" />
+                <RelativeLayout android:layout_width="50dp" android:layout_height="10dp">
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#000000" android:layout_centerInParent="true" />
+                    <View android:layout_width="8dp" android:layout_height="8dp" android:background="@drawable/slider_thumb" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Reconstructed Function Buttons Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="6dp">
+
+        <TextView android:layout_width="0dp" android:layout_height="35dp" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_gray" android:text="+" android:textColor="#2B3B6B" android:textSize="12sp" android:textStyle="bold" android:gravity="center" />
+
+        <View android:layout_width="10dp" android:layout_height="match_parent" />
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3.2" android:orientation="horizontal">
+            <TextView android:layout_width="0dp" android:layout_height="35dp" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_gray" android:text="COST" android:textColor="#2B3B6B" android:textSize="8sp" android:textStyle="bold" android:gravity="center" />
+            <TextView android:layout_width="0dp" android:layout_height="35dp" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_gray" android:text="SELL" android:textColor="#2B3B6B" android:textSize="8sp" android:textStyle="bold" android:gravity="center" />
+            <TextView android:layout_width="0dp" android:layout_height="35dp" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_gray" android:text="MGN" android:textColor="#2B3B6B" android:textSize="8sp" android:textStyle="bold" android:gravity="center" />
+        </LinearLayout>
+
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.2" />
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3.2" android:orientation="horizontal">
+            <TextView android:layout_width="0dp" android:layout_height="35dp" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_gray" android:text="+/-" android:textColor="#2B3B6B" android:textSize="9sp" android:textStyle="bold" android:gravity="center" />
+            <TextView android:layout_width="0dp" android:layout_height="35dp" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_gray" android:text="AVG" android:textColor="#2B3B6B" android:textSize="9sp" android:textStyle="bold" android:gravity="center" />
+            <TextView android:layout_width="0dp" android:layout_height="35dp" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_gt" android:text="GT" android:textColor="#FFFFFF" android:textSize="11sp" android:textStyle="bold" android:gravity="center" />
+        </LinearLayout>
+
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.2" />
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2.8" android:orientation="horizontal">
+            <TextView android:layout_width="0dp" android:layout_height="35dp" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_orange" android:text="TAX+" android:textColor="#2B3B6B" android:textSize="9sp" android:textStyle="bold" android:gravity="center" />
+            <TextView android:layout_width="0dp" android:layout_height="35dp" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_orange" android:text="TAX-" android:textColor="#2B3B6B" android:textSize="9sp" android:textStyle="bold" android:gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Keypad Grid Area -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <!-- Numeric/Basic Ops Block -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <!-- Row 1 -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:orientation="horizontal">
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_gray" android:text="÷" android:textColor="#2B3B6B" android:textSize="18sp" android:textStyle="bold" android:gravity="center" />
+                <View android:layout_width="15dp" android:layout_height="match_parent" />
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_num" android:text="7" android:textColor="#2B3B6B" android:textSize="18sp" android:textStyle="bold" android:gravity="center" />
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_num" android:text="8" android:textColor="#2B3B6B" android:textSize="18sp" android:textStyle="bold" android:gravity="center" />
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_num" android:text="9" android:textColor="#2B3B6B" android:textSize="18sp" android:textStyle="bold" android:gravity="center" />
+            </LinearLayout>
+
+            <!-- Row 2 -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:orientation="horizontal">
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_gray" android:text="=" android:textColor="#2B3B6B" android:textSize="18sp" android:textStyle="bold" android:gravity="center" />
+                <View android:layout_width="15dp" android:layout_height="match_parent" />
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_num" android:text="4" android:textColor="#2B3B6B" android:textSize="18sp" android:textStyle="bold" android:gravity="center" />
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_num" android:text="5" android:textColor="#2B3B6B" android:textSize="18sp" android:textStyle="bold" android:gravity="center" />
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_num" android:text="6" android:textColor="#2B3B6B" android:textSize="18sp" android:textStyle="bold" android:gravity="center" />
+            </LinearLayout>
+
+            <!-- Row 3 -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:orientation="horizontal">
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_gray" android:text="×" android:textColor="#2B3B6B" android:textSize="18sp" android:textStyle="bold" android:gravity="center" />
+                <View android:layout_width="15dp" android:layout_height="match_parent" />
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_num" android:text="1" android:textColor="#2B3B6B" android:textSize="18sp" android:textStyle="bold" android:gravity="center" />
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_num" android:text="2" android:textColor="#2B3B6B" android:textSize="18sp" android:textStyle="bold" android:gravity="center" />
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_num" android:text="3" android:textColor="#2B3B6B" android:textSize="18sp" android:textStyle="bold" android:gravity="center" />
+            </LinearLayout>
+
+            <View android:layout_width="match_parent" android:layout_height="16dp" />
+
+            <!-- Row 4 (Bottom) -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:orientation="horizontal">
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_gray" android:text="C/CE" android:textColor="#2B3B6B" android:textSize="11sp" android:textStyle="bold" android:gravity="center" />
+                <!-- Reduced Spacer to make 0 button grow to the left -->
+                <View android:layout_width="6dp" android:layout_height="match_parent" />
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1.7" android:layout_margin="2dp" android:background="@drawable/btn_num" android:text="0" android:textColor="#2B3B6B" android:textSize="18sp" android:textStyle="bold" android:gravity="center" />
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.8" android:layout_margin="2dp" android:background="@drawable/btn_num" android:text="00" android:textColor="#2B3B6B" android:textSize="18sp" android:textStyle="bold" android:gravity="center" />
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1.7" android:layout_margin="2dp" android:background="@drawable/btn_num" android:text="." android:textColor="#2B3B6B" android:textSize="18sp" android:textStyle="bold" android:gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Right Side Blocks -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp">
+
+            <!-- Col 5 Operations -->
+            <LinearLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1.2" android:orientation="vertical">
+                <TextView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_red" android:text="-" android:textColor="#FFFFFF" android:textSize="20sp" android:textStyle="bold" android:gravity="center" />
+                <TextView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="3.2" android:layout_margin="2dp" android:background="@drawable/btn_num" android:text="+" android:textColor="#2B3B6B" android:textSize="22sp" android:textStyle="bold" android:gravity="center" />
+            </LinearLayout>
+
+            <!-- Col 6 Operations -->
+            <LinearLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1.2" android:orientation="vertical" android:layout_marginLeft="10dp">
+                <TextView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1.05" android:layout_margin="2dp" android:background="@drawable/btn_light_gray" android:text="%" android:textColor="#2B3B6B" android:textSize="14sp" android:textStyle="bold" android:gravity="center" />
+                <TextView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1.05" android:layout_margin="2dp" android:background="@drawable/btn_light_gray" android:text="#/◇" android:textColor="#2B3B6B" android:textSize="12sp" android:textStyle="bold" android:gravity="center" />
+                <TextView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2.1" android:layout_margin="2dp" android:background="@drawable/btn_light_gray" android:text="*" android:textColor="#2B3B6B" android:textSize="22sp" android:textStyle="bold" android:gravity="center" />
+            </LinearLayout>
+
+            <!-- Col 7 Memory -->
+            <LinearLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:orientation="vertical" android:layout_marginLeft="10dp">
+                <TextView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_memory" android:text="*M" android:textColor="#FFFFFF" android:textSize="11sp" android:textStyle="bold" android:gravity="center" />
+                <TextView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_memory" android:text="◇M" android:textColor="#FFFFFF" android:textSize="11sp" android:textStyle="bold" android:gravity="center" />
+                <TextView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_memory" android:text="M-" android:textColor="#FFFFFF" android:textSize="11sp" android:textStyle="bold" android:gravity="center" />
+                <TextView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_margin="2dp" android:background="@drawable/btn_memory" android:text="M+" android:textColor="#FFFFFF" android:textSize="11sp" android:textStyle="bold" android:gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Bottom Empty Space -->
+    <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.32" />
+
+</LinearLayout>

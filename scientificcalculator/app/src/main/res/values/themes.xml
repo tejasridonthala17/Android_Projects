@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ScientificCalculator" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/btn_operator_bg</item>
+        <item name="colorPrimaryVariant">@color/btn_top_func_bg</item>
+        <item name="colorOnPrimary">@color/btn_operator_text</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/btn_gt_bg</item>
+        <item name="colorSecondaryVariant">@color/btn_gt_bg</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/btn_top_func_bg</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/calc_body_bg</item>
+    </style>
+</resources>
