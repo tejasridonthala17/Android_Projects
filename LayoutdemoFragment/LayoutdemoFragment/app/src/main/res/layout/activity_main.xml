@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1A1A1A"
+    tools:context=".MainActivity">
+
+    <!-- Top Navigation Bar -->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2C2C2C"
+        app:tabTextColor="#88FFFFFF"
+        app:tabSelectedTextColor="#BB86FC"
+        app:tabIndicatorColor="#BB86FC">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Table View" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grid View" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card View" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recycler View" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <!-- Controls Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="#252525">
+
+        <!-- Radio Buttons -->
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/rbTable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Table" android:textColor="#FFF" android:textSize="12sp"/>
+            <RadioButton android:id="@+id/rbGrid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Grid" android:textColor="#FFF" android:textSize="12sp"/>
+            <RadioButton android:id="@+id/rbCard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Card" android:textColor="#FFF" android:textSize="12sp"/>
+            <RadioButton android:id="@+id/rbRecycler" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Recycler" android:textColor="#FFF" android:textSize="12sp"/>
+        </RadioGroup>
+
+        <!-- Checkboxes -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+            <CheckBox android:id="@+id/cbTableView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Table" android:textColor="#FFF" android:textSize="12sp"/>
+            <CheckBox android:id="@+id/cbGridView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Grid" android:textColor="#FFF" android:textSize="12sp"/>
+            <CheckBox android:id="@+id/cbCardView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Card" android:textColor="#FFF" android:textSize="12sp"/>
+            <CheckBox android:id="@+id/cbRecyclerView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Recycler" android:textColor="#FFF" android:textSize="12sp"/>
+        </LinearLayout>
+
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="end">
+
+            <Spinner
+                android:id="@+id/viewSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFF"/>
+
+            <Button
+                android:id="@+id/btnRollBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roll Back"
+                android:textSize="10sp"
+                android:padding="4dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#FF5252"
+                android:textColor="#FFF"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Fragment Container with Background -->
+    <FrameLayout
+        android:id="@+id/fragment_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:background="@drawable/fragment_border">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+</LinearLayout>
