@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "com.example.phonebook.app-debug-43:/layout_item_sms.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/layout/item_sms.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/drawable_ic_edit_pen.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/drawable/ic_edit_pen.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/layout_fragment_sms.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/layout/fragment_sms.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/layout_item_message.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/layout/item_message.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/layout_fragment_threads.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/layout/fragment_threads.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/layout_activity_main.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/layout_dialog_edit_thread.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/layout/dialog_edit_thread.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/layout_item_thread.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/layout/item_thread.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/layout_activity_conversation.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/layout/activity_conversation.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/layout_fragment_export_import.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/layout/fragment_export_import.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/layout_dialog_add_edit_contact.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/layout/dialog_add_edit_contact.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/layout_item_contact.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/layout/item_contact.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/layout_fragment_contacts.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/layout/fragment_contacts.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/layout_fragment_device_contacts.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/layout/fragment_device_contacts.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/layout_activity_compose.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/layout/activity_compose.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/drawable_ic_delete_x.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/drawable/ic_delete_x.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-debug-43:/drawable_ic_undo_arrow.xml.flat",
+        "source": "com.example.phonebook.app-main-45:/drawable/ic_undo_arrow.xml"
+    }
+]

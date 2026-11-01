@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.example.phonebook.app-mergeDebugResources-42:/layout/fragment_export_import.xml",
+        "source": "com.example.phonebook.app-main-45:/layout/fragment_export_import.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-mergeDebugResources-42:/layout/activity_conversation.xml",
+        "source": "com.example.phonebook.app-main-45:/layout/activity_conversation.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-mergeDebugResources-42:/layout/item_sms.xml",
+        "source": "com.example.phonebook.app-main-45:/layout/item_sms.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-mergeDebugResources-42:/layout/item_message.xml",
+        "source": "com.example.phonebook.app-main-45:/layout/item_message.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-mergeDebugResources-42:/layout/fragment_sms.xml",
+        "source": "com.example.phonebook.app-main-45:/layout/fragment_sms.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-mergeDebugResources-42:/layout/item_thread.xml",
+        "source": "com.example.phonebook.app-main-45:/layout/item_thread.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-mergeDebugResources-42:/layout/fragment_contacts.xml",
+        "source": "com.example.phonebook.app-main-45:/layout/fragment_contacts.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-mergeDebugResources-42:/layout/fragment_device_contacts.xml",
+        "source": "com.example.phonebook.app-main-45:/layout/fragment_device_contacts.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-mergeDebugResources-42:/layout/dialog_add_edit_contact.xml",
+        "source": "com.example.phonebook.app-main-45:/layout/dialog_add_edit_contact.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-mergeDebugResources-42:/layout/dialog_edit_thread.xml",
+        "source": "com.example.phonebook.app-main-45:/layout/dialog_edit_thread.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-mergeDebugResources-42:/layout/fragment_threads.xml",
+        "source": "com.example.phonebook.app-main-45:/layout/fragment_threads.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-mergeDebugResources-42:/layout/activity_main.xml",
+        "source": "com.example.phonebook.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-mergeDebugResources-42:/layout/activity_compose.xml",
+        "source": "com.example.phonebook.app-main-45:/layout/activity_compose.xml"
+    },
+    {
+        "merged": "com.example.phonebook.app-mergeDebugResources-42:/layout/item_contact.xml",
+        "source": "com.example.phonebook.app-main-45:/layout/item_contact.xml"
+    }
+]
