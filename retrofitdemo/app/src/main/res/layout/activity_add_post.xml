@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="40dp"
+        android:text="ADD NEW POST"
+        android:textColor="#757575"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/userIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User ID"
+        android:inputType="number"
+        android:textColorHint="#9E9E9E"
+        android:backgroundTint="#BDBDBD"
+        android:textSize="18sp"
+        android:paddingBottom="12dp" />
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Title"
+        android:textColorHint="#9E9E9E"
+        android:backgroundTint="#BDBDBD"
+        android:textSize="18sp"
+        android:paddingBottom="12dp" />
+
+    <EditText
+        android:id="@+id/bodyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="top"
+        android:hint="Body"
+        android:textColorHint="#9E9E9E"
+        android:backgroundTint="#BDBDBD"
+        android:minLines="5"
+        android:textSize="18sp"
+        android:paddingBottom="12dp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:text="SUBMIT"
+        android:textColor="#212121"
+        android:backgroundTint="#E0E0E0"
+        android:insetTop="0dp"
+        android:insetBottom="0dp" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="CANCEL"
+        android:textColor="#212121"
+        android:backgroundTint="#E0E0E0"
+        android:insetTop="0dp"
+        android:insetBottom="0dp" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Movie Search Engine</string>
+    <string name="search">Search</string>
+    <string name="load_more">Load More</string>
+    <string name="back_to_results">← Back to Results</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="close">Close</string>
+    <string name="retrofit">Retrofit</string>
+    <string name="volley">Volley</string>
+    <string name="hint_search">Enter movie title...</string>
+    <string name="method_label">Method: </string>
+    <string name="director">Director:</string>
+    <string name="actors">Actors:</string>
+    <string name="plot">Plot</string>
+    <string name="found_results">Found %1$d results for "%2$s"</string>
+    <string name="year_type">Year: %1$s | %2$s</string>
+    <string name="imdb_id">ID: %1$s</string>
+    <string name="year_label">Year: %1$s</string>
+    <string name="runtime_label">Runtime: %1$s</string>
+    <string name="genre_label">Genre: %1$s</string>
+    <string name="imdb_rating_label">IMDb Rating: %1$s</string>
+    <string name="imdb_votes_label">IMDb Votes: %1$s</string>
+    <string name="director_label">Director: %1$s</string>
+    <string name="actors_label">Cast: %1$s</string>
+</resources>

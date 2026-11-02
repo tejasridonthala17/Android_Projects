@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="app_background">#FAF6FC</color>
+    <color name="purple_button">#6442ED</color>
+    <color name="purple_button_dark">#5130D6</color>
+    <color name="rating_orange">#FF6F00</color>
+    <color name="text_primary">#1D1B20</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_tertiary">#888888</color>
+    <color name="divider_color">#E0DCE4</color>
+    <color name="placeholder_bg">#EAE6EF</color>
+</resources>
